@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-hello-world
+
+  datasource:
+    #url: jdbc:h2:mem:testdb
+    url: jdbc:h2:file:/Users/pheasoy/Desktop/codes/data/demo
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+    platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
